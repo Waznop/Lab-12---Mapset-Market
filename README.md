@@ -141,7 +141,7 @@ apply_sale(admins, "Alice", 100, catalog); // false, can't apply a 100% discount
 apply_sale(admins, "Alice", 20, catalog); // true, discounts applied
 // now catalog should have value {{"tofu", 1}, {"raisin", 8}}
 // 20% discount on $1 would be $0, so we set it to $1.
-// 20$ discount on $10 would be $8.
+// 20% discount on $10 would be $8.
 ```
 
 **TODO**: Complete the test case in `TEST(MarketTest, ApplySale)`.
